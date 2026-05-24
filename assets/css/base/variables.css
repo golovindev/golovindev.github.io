@@ -1,0 +1,56 @@
+:root {
+  --color-black: #0A0E14;
+  --color-white: #B3B1AD;
+
+  --color-gray-light: #626A73;
+  --color-gray: #4d5566;
+
+  --color-accent-yellow: #E6B450;
+  --color-accent-orange: #FFB454;
+  --color-accent-orange-red: #FF8F40;
+  --color-accent-blue: #59C2FF;
+  --color-accent-green: #C2D94C;
+
+  --code-color-text: #B3B1AD;
+  --code-color-comment: #626A73;
+  --code-color-string: #C2D94C;
+  --code-color-number: #E6B450;
+  --code-color-keyword: #FF8F40;
+  --code-color-function: #FFB454;
+  --code-color-type: #59C2FF;
+  --code-color-punctuation: #B3B1AD;
+
+  --color-surface-1: #00010a;
+  --color-surface-2: #1b2733;
+  --color-surface-3: #273747;
+
+  --color-overlay: #1B2733F2;
+  --color-border: #273747;
+  --color-selection: #1b2733;
+
+  --font-family-primary: 'Outfit', system-ui, -apple-system, sans-serif;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2rem;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.25rem;
+  --line-height-normal: 1.5rem;
+  --line-height-relaxed: 1.875rem;
+  --line-height-loose: 2.375rem;
+
+  --container-max-width: 80rem;
+  --container-h-padding: 2rem;
+
+  --error-image-min: 15rem;
+  --error-image-max: 25rem;
+}

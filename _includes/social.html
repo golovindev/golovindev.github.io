@@ -1,0 +1,15 @@
+<nav class="about__social" aria-label="Social links">
+  {% for link in site.social_links %}
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="{{ link.url }}"
+      class="about__social-link about__social-link--{{ link.icon }}"
+    >
+      <span class="about__social-icon" aria-hidden="true">
+        {% include social/{{ link.icon }}.svg %}
+      </span>
+      <span class="about__social-label">{{ link.label }}</span>
+    </a>
+  {% endfor %}
+</nav>

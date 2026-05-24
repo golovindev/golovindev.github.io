@@ -1,0 +1,38 @@
+title: Maxim Golovin
+description: >-
+  Personal website of Maxim Golovin
+
+baseurl: ""
+url: "https://golovindev.github.io"
+
+author: Maxim Golovin
+username: golovindev
+avatar_url: /assets/images/avatar.jpg
+tagline: backend developer
+phrase: your only limit is you
+
+social:
+  name: Maxim Golovin
+  links:
+    - https://github.com/golovindev
+    - https://t.me/thegolovindev
+    - mailto:mail@golovin.dev
+
+social_links:
+  - label: GitHub
+    url: https://github.com/golovindev
+    icon: github
+  - label: Telegram
+    url: https://t.me/thegolovindev
+    icon: telegram
+  - label: Email
+    url: mailto:mail@golovin.dev
+    icon: email
+
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

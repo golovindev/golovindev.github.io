@@ -1,0 +1,27 @@
+---
+layout: home
+title: Maxim Golovin
+---
+<section class="about">
+  <div class="about__aside">
+    <header class="about__header">
+      <h1 class="about__name">{{ site.author }}</h1>
+      <p class="about__description">{{ site.tagline }}</p>
+      {% if site.phrase %}
+        <p class="about__phrase">{{ site.phrase }}</p>
+      {% endif %}
+    </header>
+
+    {% include social.html %}
+  </div>
+
+  <div class="about__visual">
+    <img
+      src="{{ site.avatar_url }}"
+      alt="{{ site.author }}"
+      width="800"
+      height="800"
+      fetchpriority="high"
+    >
+  </div>
+</section>

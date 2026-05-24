@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="page-home" style="--avatar-url: url('{{ site.avatar_url }}');">
+    {% include header.html %}
+    <main class="main">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
